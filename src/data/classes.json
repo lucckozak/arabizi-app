@@ -1,0 +1,138 @@
+[
+  {
+    "id": "c01",
+    "order": 1,
+    "emoji": "👋",
+    "title": "Say hello",
+    "subtitle": "Greetings & basic manners",
+    "intro": "Emiratis greet warmly and often. mar7aba and ahlan both mean \"hello\" — mix in shukran (thanks) and ma3a el salaamah (goodbye) and you can open and close almost any conversation. 3 and 7 stand in for Arabic sounds English doesn't have (ain and ha) — you'll see them everywhere.",
+    "vocabPreview": ["greet.mar7aba", "greet.ahlan", "greet.shukran", "greet.3afwan", "greet.sabaa7", "greet.ma3assalaamah"],
+    "practice": { "kind": "vocab", "categories": ["greetings"], "mode": "mcq", "direction": "ar2en", "length": 6 },
+    "homework": { "kind": "vocab", "categories": ["greetings"], "mode": "text", "direction": "en2ar", "length": 8 }
+  },
+  {
+    "id": "c02",
+    "order": 2,
+    "emoji": "🙋",
+    "title": "Talking about yourself",
+    "subtitle": "Pronouns — I, you, he, she...",
+    "intro": "Pronouns are the words you swap in for names: ana (I), enta/enty (you, m/f), huwa/hiya (he/she). You'll lean on these constantly once you start building sentences — today's the day to lock them in.",
+    "vocabPreview": ["pron.ana", "pron.enta", "pron.enty", "pron.hoo", "pron.hee", "pron.ne7an", "pron.hum"],
+    "practice": { "kind": "vocab", "categories": ["pronouns"], "mode": "mcq", "direction": "ar2en", "length": 6 },
+    "homework": { "kind": "vocab", "categories": ["pronouns", "greetings"], "mode": "match", "direction": "ar2en", "length": 8 }
+  },
+  {
+    "id": "c03",
+    "order": 3,
+    "emoji": "🔢",
+    "title": "Counting in Arabic",
+    "subtitle": "Numbers 0–100",
+    "intro": "Numbers 0–10 are your building blocks — the teens just tack \"3ash\" on the end, and the tens (3ashreen, thalatheen...) all rhyme. Learn these once and prices, ages, and phone numbers stop being a guessing game.",
+    "vocabPreview": ["num.0", "num.1", "num.2", "num.3", "num.5", "num.10", "num.20", "num.100"],
+    "practice": { "kind": "vocab", "categories": ["numbers"], "mode": "mcq", "direction": "en2ar", "length": 8 },
+    "homework": { "kind": "vocab", "categories": ["numbers"], "mode": "text", "direction": "en2ar", "length": 10 }
+  },
+  {
+    "id": "c04",
+    "order": 4,
+    "emoji": "👨‍👩‍👧",
+    "title": "Meet the family",
+    "subtitle": "Family vocabulary",
+    "intro": "Family comes up constantly in Emirati small talk — people ask about your family before they ask about your job. Umm (mother), abo (father), ukho (brother), ekht (sister) are the core four; we'll build out uncles, aunts, and grandparents too.",
+    "vocabPreview": ["fam.umm", "fam.abo", "fam.ukho", "fam.ekht", "fam.walad", "fam.bent", "fam.khaal", "fam.3mm"],
+    "practice": { "kind": "vocab", "categories": ["family"], "mode": "mcq", "direction": "ar2en", "length": 8 },
+    "homework": { "kind": "vocab", "categories": ["family", "pronouns"], "mode": "match", "direction": "ar2en", "length": 8 }
+  },
+  {
+    "id": "c05",
+    "order": 5,
+    "emoji": "❓",
+    "title": "Asking questions",
+    "subtitle": "Question words — shu, wain, kam...",
+    "intro": "shu (what), wain (where), kam (how much/many), laish (why) — these question words are how you turn a vocabulary list into a real conversation. Combine them with what you already know: \"wain el bait?\" (where is the house?).",
+    "vocabPreview": ["q.shoo", "q.wain", "q.kam", "q.laish", "q.meta", "q.kaif"],
+    "practice": { "kind": "vocab", "categories": ["questions"], "mode": "mcq", "direction": "ar2en", "length": 6 },
+    "homework": { "kind": "vocab", "categories": ["questions"], "mode": "sentence", "direction": "ar2en", "length": 6 }
+  },
+  {
+    "id": "c06",
+    "order": 6,
+    "emoji": "🔤",
+    "title": "Present-tense verbs",
+    "subtitle": "Grammar: conjugating verbs happening now",
+    "intro": "Present-tense verbs change shape depending on who's doing the action — add a- for \"I\", te- for \"you\", ye- for \"he\", and so on. Once you know the pattern, you can conjugate almost any verb in this app, not just the handful of examples.",
+    "vocabPreview": ["v.shrab", "v.kel", "v.dres", "v.l3ab", "v.7eb"],
+    "grammarTopic": "verb",
+    "practice": { "kind": "grammar", "topic": "verb", "length": 6 },
+    "homework": { "kind": "grammar", "topic": "verb", "length": 10 }
+  },
+  {
+    "id": "c07",
+    "order": 7,
+    "emoji": "🍽️",
+    "title": "Everyday food & drink",
+    "subtitle": "Food vocabulary",
+    "intro": "gahwa (coffee), chai (tea), and khebz (bread) will get you through most menus. Emirati meals lean on rice (3aish), meat (la7am), and generous portions — order with abgha or atlab (\"I want / I'll order\").",
+    "vocabPreview": ["food.gahwa", "food.chai", "food.deyay", "food.la7am", "food.3aish", "food.khebz"],
+    "practice": { "kind": "vocab", "categories": ["food"], "mode": "mcq", "direction": "ar2en", "length": 8 },
+    "homework": { "kind": "vocab", "categories": ["food"], "mode": "sentence", "direction": "ar2en", "length": 6 }
+  },
+  {
+    "id": "c08",
+    "order": 8,
+    "emoji": "🏷️",
+    "title": "Ownership — mine, yours, ours",
+    "subtitle": "Grammar: possessive suffixes",
+    "intro": "Instead of a separate word for \"my\", Emirati Arabic just adds an ending to the noun: sayyaarah (car) → sayyaarty (my car). Same idea as verbs — one small suffix per person, attached straight to the word.",
+    "vocabPreview": ["noun.sayyaarah", "noun.kitaab", "noun.bait", "noun.telifoon"],
+    "grammarTopic": "owner",
+    "practice": { "kind": "grammar", "topic": "owner", "length": 6 },
+    "homework": { "kind": "grammar", "topic": "owner", "length": 10 }
+  },
+  {
+    "id": "c09",
+    "order": 9,
+    "emoji": "🧭",
+    "title": "Finding your way",
+    "subtitle": "Directions & places",
+    "intro": "yemeen (right), yesaar (left), sayda (straight) — combine these with places like elmataar (the airport) or elmadrasah (the school) and you can direct a taxi anywhere. jeddaam (in front of) and wara (behind) round out the picture.",
+    "vocabPreview": ["dir.yemeen", "dir.yesaar", "dir.seeda", "place.mataar", "place.madrasah", "place.dekkaan"],
+    "practice": { "kind": "vocab", "categories": ["directions", "places"], "mode": "mcq", "direction": "ar2en", "length": 8 },
+    "homework": { "kind": "vocab", "categories": ["directions"], "mode": "sentence", "direction": "ar2en", "length": 6 }
+  },
+  {
+    "id": "c10",
+    "order": 10,
+    "emoji": "🪧",
+    "title": "Prepositions in context",
+    "subtitle": "Grammar: fi, 3ala, ma3, min, ila, bayn",
+    "intro": "Prepositions glue sentences together — fi (in), 3ala (on), ma3 (with), min (from), ila (to), bayn (between). Today's practice drops them into real sentences instead of flashcards, so you learn them the way you'll actually use them.",
+    "vocabPreview": ["prep.fi", "prep.3ala", "prep.ma3", "prep.min", "prep.ila", "prep.bayn"],
+    "grammarTopic": "prep",
+    "practice": { "kind": "grammarSentence", "category": "prepositions", "topic": "prep", "length": 6 },
+    "homework": { "kind": "grammarSentence", "category": "prepositions", "topic": "prep", "length": 10 }
+  },
+  {
+    "id": "c11",
+    "order": 11,
+    "emoji": "⏳",
+    "title": "Talking about the past",
+    "subtitle": "Grammar: past-tense verbs",
+    "intro": "Past tense drops the prefix from class 6 and adds a suffix instead: root + -t for \"I\", root alone for \"he\", root + -aw for \"they\". We'll reuse the same verbs you conjugated in present tense — daras (studied), la3ab (played) — just with new endings.",
+    "vocabPreview": ["v.dres", "v.ktob", "v.l3ab", "v.fham"],
+    "grammarTopic": "verbPast",
+    "practice": { "kind": "grammar", "topic": "verbPast", "length": 6 },
+    "homework": { "kind": "grammarSentence", "category": "verbs", "topic": "verbPast", "length": 8 }
+  },
+  {
+    "id": "c12",
+    "order": 12,
+    "emoji": "🏺",
+    "title": "Culture & everyday life",
+    "subtitle": "Capstone — culture vocab + a real conversation",
+    "intro": "The majlis (sitting room) and dallah (coffee pot) sit at the center of Emirati hospitality and karam (generosity). For your final class, you'll finish with a full conversation between two friends catching up — pulling together family words, verbs, and places from everything you've learned so far.",
+    "vocabPreview": ["cul.majlis", "cul.dallah", "cul.karam", "cul.3azeemah"],
+    "practice": { "kind": "vocab", "categories": ["culture"], "mode": "mcq", "direction": "ar2en", "length": 6 },
+    "homework": { "kind": "dialogue", "dialogueId": "d.catching_up" }
+  }
+]

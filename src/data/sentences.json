@@ -1,0 +1,364 @@
+[
+  {
+    "id": "s.aba_gahwa",
+    "arabic": "أبا أشرب ___ بالحليب",
+    "arabizi": "aba ashrab ___ bel 7aleeb",
+    "english": "I want to drink ___ with milk",
+    "answer": { "arabic": "قهوة", "arabizi": "gahwa", "english": "coffee" },
+    "distractorPool": "food"
+  },
+  {
+    "id": "s.aakel_3aish",
+    "arabic": "أنا آكل ___ مع الدياي",
+    "arabizi": "ana aakel ___ ma3 el deyay",
+    "english": "I eat ___ with the chicken",
+    "answer": { "arabic": "عيش", "arabizi": "3aish", "english": "rice" },
+    "distractorPool": "food"
+  },
+  {
+    "id": "s.barra3_bait",
+    "arabic": "أنا ___ البيت في الحديقة",
+    "arabizi": "ana ___ el bait fi el 7adeeqa",
+    "english": "I'm ___ the house, in the garden",
+    "answer": { "arabic": "برع", "arabizi": "barra3", "english": "outside" },
+    "distractorPool": "directions"
+  },
+  {
+    "id": "s.tel_foog",
+    "arabic": "التلفون ___ الطاولة، شفته",
+    "arabizi": "el telifoon ___ el taawlah, shifta",
+    "english": "The phone is on the top of the table, I see it",
+    "answer": { "arabic": "فوق", "arabizi": "foog", "english": "on top of" },
+    "distractorPool": "directions"
+  },
+  {
+    "id": "s.bait_kebeer",
+    "arabic": "هذا بيت ___ ، فيه عشر غرف",
+    "arabizi": "hadha bait ___, fee 3asher ghuraf",
+    "english": "This is a ___ house, it has ten rooms",
+    "answer": { "arabic": "كبير", "arabizi": "kebeer", "english": "big" },
+    "distractorPool": "adjectives"
+  },
+  {
+    "id": "s.gahwa_zain",
+    "arabic": "القهوة من هذا المطعم ___ وايد",
+    "arabizi": "el gahwa men hadha el mat3am ___ wayed",
+    "english": "The coffee from this restaurant is very ___",
+    "answer": { "arabic": "زين", "arabizi": "zain", "english": "good" },
+    "distractorPool": "adjectives"
+  },
+  {
+    "id": "s.aseer_dawam",
+    "arabic": "أسير ___ علشان أشتغل",
+    "arabizi": "aseer ___ 3alashan ashtaghel",
+    "english": "I'm going to ___ so I can work",
+    "answer": { "arabic": "دوام", "arabizi": "dawaam", "english": "work" },
+    "distractorPool": "places"
+  },
+  {
+    "id": "s.bait_jeddaam",
+    "arabic": "البيت ___ السوبرماركت، تشوف الباب",
+    "arabizi": "el bait ___ el supermarket, tshoof el baab",
+    "english": "The house is ___ the supermarket, you can see its front door",
+    "answer": { "arabic": "جدام", "arabizi": "jeddaam", "english": "in front of" },
+    "distractorPool": "directions"
+  },
+  {
+    "id": "s.aba_aakel",
+    "arabic": "___ آكل سمج",
+    "arabizi": "___ aakel semach",
+    "english": "I want to eat fish",
+    "answer": { "arabic": "أبا", "arabizi": "aba", "english": "I want" },
+    "distractorPool": "expressions"
+  },
+  {
+    "id": "s.shoo_hadha",
+    "arabic": "___ هذا؟",
+    "arabizi": "___ hadha?",
+    "english": "What is this?",
+    "answer": { "arabic": "شو", "arabizi": "shoo", "english": "what" },
+    "distractorPool": "questions"
+  },
+  {
+    "id": "s.kam_3omrek",
+    "arabic": "___ عمرك؟",
+    "arabizi": "___ 3omrek?",
+    "english": "How old are you?",
+    "answer": { "arabic": "كم", "arabizi": "kam", "english": "how much/many" },
+    "distractorPool": "questions"
+  },
+  {
+    "id": "s.meta_3asha",
+    "arabic": "___ العشا؟",
+    "arabizi": "___ el 3asha?",
+    "english": "When is dinner?",
+    "answer": { "arabic": "متى", "arabizi": "meta", "english": "when" },
+    "distractorPool": "questions"
+  },
+  {
+    "id": "s.umm_taweel",
+    "arabic": "___ مريم طويلة، عمرها 30",
+    "arabizi": "___ Maryam taweelah, 3omraha 30",
+    "english": "Maryam's mother is tall, she is 30",
+    "answer": { "arabic": "أم", "arabizi": "umm", "english": "mother" },
+    "distractorPool": "family"
+  },
+  {
+    "id": "s.aba_3aseer",
+    "arabic": "أبا ___ برتقال بارد",
+    "arabizi": "aba ___ burtuqal baared",
+    "english": "I want cold orange ___ to drink",
+    "answer": { "arabic": "عصير", "arabizi": "3aseer", "english": "juice" },
+    "distractorPool": "food"
+  },
+  {
+    "id": "s.lon_a7mar",
+    "arabic": "إشارة المرور ___ ، توقف",
+    "arabizi": "esharat el muroor ___, twaqef",
+    "english": "The traffic light is ___, stop",
+    "answer": { "arabic": "أحمر", "arabizi": "a7mar", "english": "red" },
+    "distractorPool": "colors"
+  },
+  {
+    "id": "s.kaif_jaw",
+    "arabic": "___ الجو؟",
+    "arabizi": "___ el jaw?",
+    "english": "How is the weather?",
+    "answer": { "arabic": "كيف", "arabizi": "kaif", "english": "how" },
+    "distractorPool": "questions"
+  },
+  {
+    "id": "s.aba_aseer_bait",
+    "arabic": "أبا أسير ___ علشان أنام",
+    "arabizi": "aba aseer ___ 3alashan anaam",
+    "english": "I want to go ___ so I can sleep",
+    "answer": { "arabic": "البيت", "arabizi": "el bait", "english": "home" },
+    "distractorPool": "places"
+  },
+  {
+    "id": "s.prep_kitaab_3ala",
+    "arabic": "الكتاب ___ الطاولة، فوقها بالضبط",
+    "arabizi": "el kitaab ___ el taawlah, foogha bidhabt",
+    "english": "The book is ___ the table, right on top of it",
+    "answer": { "arabic": "على", "arabizi": "3ala", "english": "on" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.prep_qit_ta7t",
+    "arabic": "القط ___ السرير، مختبي",
+    "arabizi": "el qit ___ el sareer, mukhtabi",
+    "english": "The cat is ___ the bed, hiding",
+    "answer": { "arabic": "تحت", "arabizi": "ta7t", "english": "under" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.prep_ana_ma3",
+    "arabic": "أنا ___ صديقي في المكتب",
+    "arabizi": "ana ___ sadeeqi fi el maktab",
+    "english": "I am ___ my friend in the office",
+    "answer": { "arabic": "مع", "arabizi": "ma3", "english": "with" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.prep_sayyaarah_wara",
+    "arabic": "السيارة ___ البيت، في المرآب الخلفي",
+    "arabizi": "el sayyaarah ___ el bait, fi el mar'aab el khalfi",
+    "english": "The car is ___ the house, in the back garage",
+    "answer": { "arabic": "ورا", "arabizi": "wara", "english": "behind" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.prep_roo7_ila",
+    "arabic": "روح ___ السوق و اشتري خبز",
+    "arabizi": "roo7 ___ el soog wo ishtree khebz",
+    "english": "Go ___ the market and buy bread",
+    "answer": { "arabic": "إلى", "arabizi": "ila", "english": "to" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.prep_kursi_bayn",
+    "arabic": "الكرسي ___ الطاولة و الأريكة",
+    "arabizi": "el kursi ___ el taawlah wo el areeka",
+    "english": "The chair is ___ the table and the sofa",
+    "answer": { "arabic": "بين", "arabizi": "bayn", "english": "between" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.prep_ana_fi_bait",
+    "arabic": "أنا ___ البيت، أرتاح",
+    "arabizi": "ana ___ el bait, artaa7",
+    "english": "I am ___ the house, resting",
+    "answer": { "arabic": "في", "arabizi": "fi", "english": "in" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.prep_jay_min",
+    "arabic": "أنا جاي ___ المدرسة، خلصت الدرس",
+    "arabizi": "ana jaay ___ el madrasah, khallast el dars",
+    "english": "I am coming ___ school, the lesson is done",
+    "answer": { "arabic": "من", "arabizi": "min", "english": "from" },
+    "distractorPool": "prepositions"
+  },
+
+  {
+    "id": "s.pastv_darast",
+    "arabic": "أمس ___ عربي",
+    "arabizi": "ams ___ 3arabi",
+    "english": "Yesterday I ___ Arabic",
+    "answer": { "arabic": "درست", "arabizi": "darast", "english": "studied" },
+    "distractorPool": "verbs"
+  },
+  {
+    "id": "s.pastv_katab",
+    "arabic": "هو ___ رسالة الأسبوع اللي طاف",
+    "arabizi": "hu ___ resalah el esboo3 ellee taaf",
+    "english": "He ___ a letter last week",
+    "answer": { "arabic": "كتب", "arabizi": "katab", "english": "wrote" },
+    "distractorPool": "verbs"
+  },
+  {
+    "id": "s.pastv_fata7na",
+    "arabic": "احنا ___ المحل بدري",
+    "arabizi": "e7na ___ elma7al bedry",
+    "english": "We ___ the shop early",
+    "answer": { "arabic": "فتحنا", "arabizi": "fata7na", "english": "opened" },
+    "distractorPool": "verbs"
+  },
+  {
+    "id": "s.pastv_talaboo",
+    "arabic": "هم ___ قهوة في الكوفي",
+    "arabizi": "hum ___ gahwa fee elkoofi",
+    "english": "They ___ coffee at the café",
+    "answer": { "arabic": "طلبوا", "arabizi": "talaboo", "english": "ordered" },
+    "distractorPool": "verbs"
+  },
+  {
+    "id": "s.pastv_dafa3t",
+    "arabic": "أمس ___ الفاتورة",
+    "arabizi": "ams ___ elfatoorah",
+    "english": "Yesterday I ___ the bill",
+    "answer": { "arabic": "دفعت", "arabizi": "dafa3t", "english": "paid" },
+    "distractorPool": "verbs"
+  },
+  {
+    "id": "s.pastv_la3abat",
+    "arabic": "هي ___ كورة ويا ربيعاتها",
+    "arabizi": "hiya ___ koorah wiya irbee3aatha",
+    "english": "She ___ football with her friends",
+    "answer": { "arabic": "لعبت", "arabizi": "la3abat", "english": "played" },
+    "distractorPool": "verbs"
+  },
+  {
+    "id": "s.pastv_fahamt",
+    "arabic": "إنت ___ الدرس بسرعة",
+    "arabizi": "enta ___ eldars bser3ah",
+    "english": "You (m) ___ the lesson quickly",
+    "answer": { "arabic": "فهمت", "arabizi": "fahamt", "english": "understood" },
+    "distractorPool": "verbs"
+  },
+  {
+    "id": "s.pastv_sakant",
+    "arabic": "___ في أبوظبي سنتين",
+    "arabizi": "___ fee Abu Dhabi sanatain",
+    "english": "I ___ in Abu Dhabi for two years",
+    "answer": { "arabic": "سكنت", "arabizi": "sakant", "english": "lived" },
+    "distractorPool": "verbs"
+  },
+  {
+    "id": "s.pastv_dha7ak",
+    "arabic": "هو ___ وايد في الحفلة",
+    "arabizi": "hu ___ wayed fee el7aflah",
+    "english": "He ___ a lot at the party",
+    "answer": { "arabic": "ضحك", "arabizi": "dha7ak", "english": "laughed" },
+    "distractorPool": "verbs"
+  },
+  {
+    "id": "s.pastv_sama3na",
+    "arabic": "احنا ___ الأغنية الجديدة",
+    "arabizi": "e7na ___ elaghniyah eljadeedah",
+    "english": "We ___ to the new song",
+    "answer": { "arabic": "سمعنا", "arabizi": "sama3na", "english": "listened" },
+    "distractorPool": "verbs"
+  },
+
+  {
+    "id": "s.conn_3ala_kirsee",
+    "arabic": "القلم ___ الكرسي",
+    "arabizi": "elqalam ___ elkirsee",
+    "english": "The pen is ___ the chair",
+    "answer": { "arabic": "على", "arabizi": "3ala", "english": "on" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.conn_lain_9ob7",
+    "arabic": "أنا انتظرتك ___ الصبح",
+    "arabizi": "ana enteDhartek ___ elsubu7",
+    "english": "I waited for you ___ the morning",
+    "answer": { "arabic": "لين", "arabizi": "lain", "english": "until" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.conn_mal_a7mad",
+    "arabic": "هذا الكتاب ___ أحمد",
+    "arabizi": "hatha elkitaab ___ A7mad",
+    "english": "This book ___ Ahmad",
+    "answer": { "arabic": "مال", "arabizi": "mal", "english": "belongs to" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.conn_fi_abudhabi",
+    "arabic": "هو ساكن ___ أبوظبي",
+    "arabizi": "hu saaken ___ Abu Dhabi",
+    "english": "He lives ___ Abu Dhabi",
+    "answer": { "arabic": "في", "arabizi": "fi", "english": "in" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.conn_3shaan_shughul",
+    "arabic": "اليوم عندي شغل وايد ___ ما بقدر أطلع",
+    "arabizi": "elyoum 3ndee shughul wayed ___ ma bagdar atla3",
+    "english": "Today I have a lot of work, ___ I can't go out",
+    "answer": { "arabic": "عشان", "arabizi": "3shaan", "english": "because" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.conn_idha_jaw",
+    "arabic": "___ الجو حلو، بنروح البحر",
+    "arabizi": "___ eljaw 7elo, benrooh elba7ar",
+    "english": "___ the weather is nice, we'll go to the beach",
+    "answer": { "arabic": "اذا", "arabizi": "idha", "english": "if" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.conn_3an_shughul",
+    "arabic": "الاجتماع ___ الشغل",
+    "arabizi": "elejtimaa3 ___ elshughul",
+    "english": "The meeting is ___ work",
+    "answer": { "arabic": "عن", "arabizi": "3an", "english": "about" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.conn_bayn_kitaab_telefoon",
+    "arabic": "المفتاح ___ الكتاب والتلفون",
+    "arabizi": "elmiftaa7 ___ elkitaab welteleefoon",
+    "english": "The key is ___ the book and the phone",
+    "answer": { "arabic": "بين", "arabizi": "bayn", "english": "between" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.conn_fa_tghada",
+    "arabic": "خلصنا الاجتماع ___ تغدينا",
+    "arabizi": "khalasna elejtimaa3 ___ tghadaina",
+    "english": "We finished the meeting, ___ we had lunch",
+    "answer": { "arabic": "ف", "arabizi": "fa", "english": "so" },
+    "distractorPool": "prepositions"
+  },
+  {
+    "id": "s.conn_7atta_ali",
+    "arabic": "كل الطلاب جاوبوا، ___ علي جاوب",
+    "arabizi": "kil elTolaab jaawaboo, ___ 3ali jaawab",
+    "english": "All the students answered, ___ Ali answered",
+    "answer": { "arabic": "حتى", "arabizi": "7atta", "english": "even" },
+    "distractorPool": "prepositions"
+  }
+]

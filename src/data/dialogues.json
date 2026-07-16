@@ -1,0 +1,236 @@
+[
+  {
+    "id": "d.cafe",
+    "title": "At the café",
+    "scenario": "Ordering coffee and food",
+    "emoji": "☕️",
+    "topics": ["food"],
+    "lines": [
+      { "speaker": "Waiter", "side": "A", "arabic": "أهلاً، شو تبا؟",     "arabizi": "ahlan, shoo tba?",     "english": "Hi, what would you like?" },
+      { "speaker": "You",    "side": "B", "arabic": "أبا ___ و ___",      "arabizi": "aba ___ wo ___",       "english": "I want ___ and ___" },
+      { "speaker": "Waiter", "side": "A", "arabic": "تبا شي ثاني؟",       "arabizi": "tba shai thaani?",     "english": "Anything else?" },
+      { "speaker": "You",    "side": "B", "arabic": "هيه، أبا ___ بارد",   "arabizi": "haih, aba ___ baared",  "english": "Yes, I want a cold ___" },
+      { "speaker": "Waiter", "side": "A", "arabic": "زين، حاضر",          "arabizi": "zain, 7aadher",        "english": "Good, right away" }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "قهوة",  "arabizi": "gahwa",  "english": "coffee" }, "distractorPool": "food" },
+      { "answer": { "arabic": "سلطة",  "arabizi": "salata", "english": "salad" },  "distractorPool": "food" },
+      { "answer": { "arabic": "عصير",  "arabizi": "3aseer", "english": "juice" },  "distractorPool": "food" }
+    ]
+  },
+  {
+    "id": "d.taxi",
+    "title": "Taking a taxi",
+    "scenario": "Giving directions to the driver",
+    "emoji": "🚖",
+    "topics": ["directions", "places"],
+    "lines": [
+      { "speaker": "You",    "side": "A", "arabic": "أهلاً، أبا أسير ___",       "arabizi": "ahlan, aba aseer ___",       "english": "Hi, I want to go to the ___" },
+      { "speaker": "Driver", "side": "B", "arabic": "زين. أسير ___ ؟",            "arabizi": "zain. aseer ___?",            "english": "Good. Should I go straight?" },
+      { "speaker": "You",    "side": "A", "arabic": "هيه، و بعدها ___",            "arabizi": "haih, wo ba3adha ___",        "english": "Yes, and then turn right" },
+      { "speaker": "Driver", "side": "B", "arabic": "تمام، نوصل قريب",             "arabizi": "tamam, nwosel jereeb",        "english": "OK, we'll arrive soon" }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "مطار", "arabizi": "mataar", "english": "airport" },  "distractorPool": "places" },
+      { "answer": { "arabic": "سيدا", "arabizi": "seeda",  "english": "straight" }, "distractorPool": "directions" },
+      { "answer": { "arabic": "يمين", "arabizi": "yemeen", "english": "right" },    "distractorPool": "directions" }
+    ]
+  },
+  {
+    "id": "d.work",
+    "title": "Time at the office",
+    "scenario": "Talking about meetings",
+    "emoji": "💼",
+    "topics": ["time"],
+    "lines": [
+      { "speaker": "Boss", "side": "A", "arabic": "صباح الخير، الإجتماع ___ بالضبط",   "arabizi": "sabaa7 el khair, el ejtimaa3 ___ bidhabt", "english": "Good morning, the meeting is at ten o'___ exactly" },
+      { "speaker": "You",  "side": "B", "arabic": "زين، باجي بعد ___",                   "arabizi": "zain, baayi ba3ad ___",                     "english": "Good, I'll come in half an ___" },
+      { "speaker": "Boss", "side": "A", "arabic": "تمام، نلتقي قبل ___ دقايق",            "arabizi": "tamam, naltqi gabel ___ dgaayeg",          "english": "OK, we'll meet ___ minutes before" }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "الساعة", "arabizi": "el sa3ah", "english": "clock / hour" }, "distractorPool": "time" },
+      { "answer": { "arabic": "ساعة",   "arabizi": "sa3ah",    "english": "hour" },         "distractorPool": "time" },
+      { "answer": { "arabic": "عشر",    "arabizi": "3asher",   "english": "ten" },          "distractorPool": "time" }
+    ]
+  },
+  {
+    "id": "d.shop",
+    "title": "At the corner shop",
+    "scenario": "Buying groceries",
+    "emoji": "🛒",
+    "topics": ["food"],
+    "lines": [
+      { "speaker": "Shopper", "side": "A", "arabic": "السلام عليكم، أبا ___",        "arabizi": "el salaam 3laikum, aba ___",  "english": "Hello, I want bread (___)" },
+      { "speaker": "Seller",  "side": "B", "arabic": "زين، شي ثاني؟",                  "arabizi": "zain, shai thaani?",          "english": "Good, anything else?" },
+      { "speaker": "Shopper", "side": "A", "arabic": "هيه، أبا ___ للقهوة",            "arabizi": "haih, aba ___ lel gahwa",     "english": "Yes, I want milk (___) for the coffee" },
+      { "speaker": "Seller",  "side": "B", "arabic": "تمام. شي ثاني؟",                  "arabizi": "tamam. shai thaani?",          "english": "OK. Anything else?" },
+      { "speaker": "Shopper", "side": "A", "arabic": "بس ___ من فضلك",                  "arabizi": "bas ___ men fadhlek",          "english": "Just sugar (___) please" }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "خبز",   "arabizi": "khebz",   "english": "bread" }, "distractorPool": "food" },
+      { "answer": { "arabic": "حليب",  "arabizi": "7aleeb",  "english": "milk" },  "distractorPool": "food" },
+      { "answer": { "arabic": "شكر",   "arabizi": "shaker",  "english": "sugar" }, "distractorPool": "food" }
+    ]
+  },
+  {
+    "id": "d.greet",
+    "title": "Meeting someone",
+    "scenario": "Saying hello to a friend",
+    "emoji": "👋",
+    "topics": ["greetings"],
+    "lines": [
+      { "speaker": "Friend", "side": "A", "arabic": "السلام عليكم، ___ ؟",   "arabizi": "el salaam 3laikum, ___?",  "english": "Hello, how are you?" },
+      { "speaker": "You",    "side": "B", "arabic": "الحمد لله ___",          "arabizi": "el 7amdellah ___",          "english": "Thank God, I'm good" },
+      { "speaker": "Friend", "side": "A", "arabic": "تمام، ___ شو الأخبار؟", "arabizi": "tamam, ___ shoo el akhbaar?","english": "Great, what's new?" },
+      { "speaker": "You",    "side": "B", "arabic": "كل شي زين، ___",          "arabizi": "kil shai zain, ___",         "english": "Everything's good, sorry I'm in a hurry" }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "اشحالك", "arabizi": "esh7alek",     "english": "how are you (m)" }, "distractorPool": "greetings" },
+      { "answer": { "arabic": "تمام",   "arabizi": "tamam",        "english": "I'm good" },         "distractorPool": "greetings" },
+      { "answer": { "arabic": "هيه",    "arabizi": "haih",         "english": "yes" },              "distractorPool": "greetings" },
+      { "answer": { "arabic": "آسف",    "arabizi": "aasif",        "english": "sorry (m)" },        "distractorPool": "greetings" }
+    ]
+  },
+  {
+    "id": "d.house",
+    "title": "Around the house",
+    "scenario": "Asking where things are placed",
+    "emoji": "🏠",
+    "topics": ["prepositions"],
+    "lines": [
+      { "speaker": "Mom",  "side": "A", "arabic": "وين الكتاب؟",                   "arabizi": "wain el kitaab?",          "english": "Where is the book?" },
+      { "speaker": "You",  "side": "B", "arabic": "الكتاب ___ الطاولة",            "arabizi": "el kitaab ___ el taawlah", "english": "The book is on top of the table" },
+      { "speaker": "Mom",  "side": "A", "arabic": "و التلفون، ضاع ___ الكرسي؟",    "arabizi": "wo el telifoon, dha3 ___ el kursi?", "english": "And the phone, did it fall under the chair?" },
+      { "speaker": "You",  "side": "B", "arabic": "هيه، ___ الكرسي بالضبط",         "arabizi": "haih, ___ el kursi bidhabt", "english": "Yes, exactly under the chair" },
+      { "speaker": "Mom",  "side": "A", "arabic": "زين، أنا ___ المطبخ، تعال",      "arabizi": "zain, ana ___ el matbakh, ta3aal", "english": "Good, I'm inside the kitchen, come" }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "على",  "arabizi": "3ala", "english": "on" },     "distractorPool": "prepositions" },
+      { "answer": { "arabic": "تحت",  "arabizi": "ta7t", "english": "under" },  "distractorPool": "prepositions" },
+      { "answer": { "arabic": "تحت",  "arabizi": "ta7t", "english": "under" },  "distractorPool": "prepositions" },
+      { "answer": { "arabic": "في",   "arabizi": "fi",   "english": "in" },     "distractorPool": "prepositions" }
+    ]
+  },
+  {
+    "id": "d.family",
+    "title": "Family time",
+    "scenario": "Talking about your family",
+    "emoji": "👨‍👩‍👧",
+    "topics": ["family"],
+    "lines": [
+      { "speaker": "Friend", "side": "A", "arabic": "كم ___ عندك؟",               "arabizi": "kam ___ 3endek?",            "english": "How many children do you have?" },
+      { "speaker": "You",    "side": "B", "arabic": "عندي ___ صغير",                "arabizi": "3endee ___ segheer",          "english": "I have a small son" },
+      { "speaker": "Friend", "side": "A", "arabic": "ما شاء الله، و عندك ___ بعد؟", "arabizi": "ma sha Allah, wo 3endek ___ ba3ad?", "english": "Wonderful, and do you have a daughter too?" },
+      { "speaker": "You",    "side": "B", "arabic": "لا، بس ولد. و ___ في البيت",   "arabizi": "la, bas walad. wo ___ fi el bait", "english": "No, just a boy. And my mother is at home" }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "عيال", "arabizi": "3yaal", "english": "children" }, "distractorPool": "family" },
+      { "answer": { "arabic": "ولد",  "arabizi": "walad", "english": "boy / son" }, "distractorPool": "family" },
+      { "answer": { "arabic": "بنت",  "arabizi": "bent",  "english": "daughter / girl" }, "distractorPool": "family" },
+      { "answer": { "arabic": "أم",   "arabizi": "umm",   "english": "mother" },    "distractorPool": "family" }
+    ]
+  },
+  {
+    "id": "d.colors",
+    "title": "Naming colors",
+    "scenario": "A friend tests your colors",
+    "emoji": "🎨",
+    "topics": ["colors"],
+    "lines": [
+      { "speaker": "Friend", "side": "A", "arabic": "شو لون السماء؟",     "arabizi": "shoo loan el sama?",     "english": "What is the color of the sky?" },
+      { "speaker": "You",    "side": "B", "arabic": "السماء ___",          "arabizi": "el sama ___",            "english": "The sky is blue" },
+      { "speaker": "Friend", "side": "A", "arabic": "زين، و الشمس؟",       "arabizi": "zain, wo el shams?",     "english": "Good, and the sun?" },
+      { "speaker": "You",    "side": "B", "arabic": "الشمس ___",           "arabizi": "el shams ___",           "english": "The sun is yellow" },
+      { "speaker": "Friend", "side": "A", "arabic": "ممتاز، و الثلج؟",    "arabizi": "mumtaaz, wo el thalj?",  "english": "Excellent, and the snow?" },
+      { "speaker": "You",    "side": "B", "arabic": "الثلج ___",           "arabizi": "el thalj ___",           "english": "The snow is white" }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "أزرق",  "arabizi": "azrag",  "english": "blue" },   "distractorPool": "colors" },
+      { "answer": { "arabic": "أصفر",  "arabizi": "asfar",  "english": "yellow" }, "distractorPool": "colors" },
+      { "answer": { "arabic": "أبيض",  "arabizi": "abyadh", "english": "white" },  "distractorPool": "colors" }
+    ]
+  },
+  {
+    "id": "d.questions",
+    "title": "Getting to know you",
+    "scenario": "A short interview with question words",
+    "emoji": "❓",
+    "topics": ["questions"],
+    "lines": [
+      { "speaker": "Friend", "side": "A", "arabic": "___ اسمك؟",          "arabizi": "___ ismek?",            "english": "What is your name?" },
+      { "speaker": "You",    "side": "B", "arabic": "اسمي محمد",          "arabizi": "ismi Mohammed",         "english": "My name is Mohammed" },
+      { "speaker": "Friend", "side": "A", "arabic": "زين، ___ عمرك؟",     "arabizi": "zain, ___ 3omrek?",     "english": "Good, how old are you?" },
+      { "speaker": "You",    "side": "B", "arabic": "عمري عشرين",         "arabizi": "3omri 3ishreen",        "english": "I'm twenty" },
+      { "speaker": "Friend", "side": "A", "arabic": "و ___ بدأت الشغل؟",  "arabizi": "wo ___ bedait el shaghal?", "english": "And when did you start work?" },
+      { "speaker": "You",    "side": "B", "arabic": "البارحة",            "arabizi": "el baar7a",             "english": "Yesterday" }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "شو",  "arabizi": "shoo", "english": "what" },      "distractorPool": "questions" },
+      { "answer": { "arabic": "كم",  "arabizi": "kam",  "english": "how much" }, "distractorPool": "questions" },
+      { "answer": { "arabic": "متى", "arabizi": "meta", "english": "when" },     "distractorPool": "questions" }
+    ]
+  },
+  {
+    "id": "d.pronouns",
+    "title": "Where is everyone?",
+    "scenario": "Mom checking on the family",
+    "emoji": "👤",
+    "topics": ["pronouns"],
+    "lines": [
+      { "speaker": "Mom", "side": "A", "arabic": "وين الكل؟",                "arabizi": "wain el kil?",          "english": "Where is everyone?" },
+      { "speaker": "You", "side": "B", "arabic": "___ في البيت",              "arabizi": "___ fi el bait",         "english": "I am at home" },
+      { "speaker": "Mom", "side": "A", "arabic": "و سعيد، وين ___؟",          "arabizi": "wo Saeed, wain ___?",   "english": "And Saeed, where is he?" },
+      { "speaker": "You", "side": "B", "arabic": "___ في الدوام",             "arabizi": "___ fi el dawaam",      "english": "He is at work" },
+      { "speaker": "Mom", "side": "A", "arabic": "و فاطمة و سارة؟",          "arabizi": "wo Fatima wo Sara?",    "english": "And Fatima and Sara?" },
+      { "speaker": "You", "side": "B", "arabic": "___ في المدرسة",            "arabizi": "___ fi el madrasah",    "english": "They are at school" }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "أنا", "arabizi": "ana", "english": "I" },     "distractorPool": "pronouns" },
+      { "answer": { "arabic": "هو",  "arabizi": "hoo", "english": "he" },    "distractorPool": "pronouns" },
+      { "answer": { "arabic": "هو",  "arabizi": "hoo", "english": "he" },    "distractorPool": "pronouns" },
+      { "answer": { "arabic": "هم",  "arabizi": "hum", "english": "they" },  "distractorPool": "pronouns" }
+    ]
+  },
+  {
+    "id": "d.adjectives",
+    "title": "Describing things",
+    "scenario": "Talking about a new place",
+    "emoji": "🎨",
+    "topics": ["adjectives"],
+    "lines": [
+      { "speaker": "Friend", "side": "A", "arabic": "كيف البيت الجديد؟",      "arabizi": "kaif el bait el yedeed?",   "english": "How is the new house?" },
+      { "speaker": "You",    "side": "B", "arabic": "البيت ___ ، فيه غرف وايد", "arabizi": "el bait ___, fee ghuraf wayed", "english": "The house is big, it has many rooms" },
+      { "speaker": "Friend", "side": "A", "arabic": "و الإيجار؟",               "arabizi": "wo el eejaar?",              "english": "And the rent?" },
+      { "speaker": "You",    "side": "B", "arabic": "الإيجار ___ ، مب رخيص",   "arabizi": "el eejaar ___, mob rekhees", "english": "The rent is expensive, not cheap" },
+      { "speaker": "Friend", "side": "A", "arabic": "بس البيت زين؟",            "arabizi": "bas el bait zain?",          "english": "But the house is good?" },
+      { "speaker": "You",    "side": "B", "arabic": "هيه، وايد ___",            "arabizi": "haih, wayed ___",            "english": "Yes, very nice" }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "كبير",  "arabizi": "kebeer",  "english": "big" },       "distractorPool": "adjectives" },
+      { "answer": { "arabic": "غالي",  "arabizi": "ghalee",  "english": "expensive" }, "distractorPool": "adjectives" },
+      { "answer": { "arabic": "حلو",   "arabizi": "7elo",    "english": "nice" },      "distractorPool": "adjectives" }
+    ]
+  },
+  {
+    "id": "d.catching_up",
+    "title": "Catching up with a friend",
+    "scenario": "Asking after each other's family",
+    "emoji": "👨‍👩‍👧",
+    "topics": ["family"],
+    "lines": [
+      { "speaker": "Ali",    "side": "A", "arabic": "مرحبا سلطان! شحالك؟ شخبار ___؟",         "arabizi": "marhaba Sultan! sh7alek? shakhbar ___?",           "english": "Hello Sultan! How are you? How's your ___?" },
+      { "speaker": "Sultan", "side": "B", "arabic": "الحمدلله، كل شي بخير. ___ في البيت ويا أهلي", "arabizi": "al7amdellah, kil shay bekhair. ___ fil bayt weya ahli", "english": "Thank God, everything is fine. My ___ is at home with my family." },
+      { "speaker": "Ali",    "side": "A", "arabic": "ماشاء الله، و ___ خالد، كل شي بخير؟",      "arabizi": "masha2Allah, wa ___ Khaled, kil shay bekhair?",     "english": "God's will, and your ___ Khaled, is everything well?" },
+      { "speaker": "Sultan", "side": "B", "arabic": "هيه، هو في ___ الحين. هو ___ كورة القدم مثل أخته", "arabizi": "heh, hu fee ___ al7een. hu ___ koorat elgadam methel okhtah", "english": "Yes, he's at ___ right now. He ___ football like his sister." },
+      { "speaker": "Ali",    "side": "A", "arabic": "الله يحفظهم، يالله سلام على ___",           "arabizi": "Allah y7afidhum, yallah salaam 3ala ___",           "english": "May God protect them, give my regards to your ___." }
+    ],
+    "blanks": [
+      { "answer": { "arabic": "عائلتك", "arabizi": "3ayilatek", "english": "your family" },   "distractorPool": "family" },
+      { "answer": { "arabic": "يدتي",   "arabizi": "yadatee",   "english": "my grandmother" }, "distractorPool": "family" },
+      { "answer": { "arabic": "ولدك",   "arabizi": "waladek",   "english": "your son" },       "distractorPool": "family" },
+      { "answer": { "arabic": "المدرسة","arabizi": "elmadrasah","english": "school" },         "distractorPool": "places" },
+      { "answer": { "arabic": "يلعب",   "arabizi": "yal3ab",    "english": "plays" },          "distractorPool": "verbs" },
+      { "answer": { "arabic": "أمك",    "arabizi": "ommek",     "english": "your mother" },    "distractorPool": "family" }
+    ]
+  }
+]

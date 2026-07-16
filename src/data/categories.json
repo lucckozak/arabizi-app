@@ -1,0 +1,20 @@
+[
+  { "id": "greetings",  "label": "Greetings",   "emoji": "👋" },
+  { "id": "pronouns",   "label": "Pronouns",    "emoji": "👤" },
+  { "id": "questions",  "label": "Questions",   "emoji": "❓" },
+  { "id": "food",       "label": "Food",        "emoji": "🍽️" },
+  { "id": "adjectives", "label": "Adjectives",  "emoji": "🎨" },
+  { "id": "emotions",   "label": "Feelings",    "emoji": "🙂" },
+  { "id": "family",     "label": "Family",      "emoji": "👨‍👩‍👧" },
+  { "id": "places",     "label": "Places",      "emoji": "📍" },
+  { "id": "directions", "label": "Directions",  "emoji": "🧭" },
+  { "id": "prepositions","label": "Prepositions","emoji": "🪧" },
+  { "id": "time",       "label": "Time & Days", "emoji": "🕒" },
+  { "id": "colors",     "label": "Colors",      "emoji": "🌈" },
+  { "id": "nouns",      "label": "Nouns",       "emoji": "📦" },
+  { "id": "expressions","label": "Expressions", "emoji": "💬" },
+  { "id": "verbs",      "label": "Verbs",       "emoji": "🏃" },
+  { "id": "numbers",    "label": "Numbers",     "emoji": "🔢" },
+  { "id": "body",       "label": "Body",        "emoji": "🙋" },
+  { "id": "culture",    "label": "Culture",     "emoji": "🏺" }
+]

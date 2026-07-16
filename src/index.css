@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: #f7f3ec;
+  --color-bg-soft: #efe8d8;
+  --color-surface: #ffffff;
+  --color-surface-2: #fbf7ef;
+  --color-ink: #1a1814;
+  --color-ink-soft: #4a443c;
+  --color-muted: #8a8275;
+  --color-line: #e6dec9;
+  --color-line-strong: #d8cdb1;
+  --color-brand: #6fa873;
+  --color-brand-strong: #588d5d;
+  --color-brand-soft: #e5efe2;
+  --color-correct: #58a169;
+  --color-correct-soft: #e6f1e6;
+  --color-wrong: #d96c6c;
+  --color-wrong-soft: #fbeaea;
+  --color-accent: #e9a23a;
+  --color-accent-soft: #fbf0d9;
+  --color-overlay: rgba(20, 18, 14, 0.45);
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-arabic: 'Noto Sans Arabic', 'Cairo', system-ui, sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 1px 2px rgba(20, 18, 14, 0.04), 0 2px 8px rgba(20, 18, 14, 0.04);
+  --shadow-pop: 0 8px 24px rgba(20, 18, 14, 0.10), 0 2px 6px rgba(20, 18, 14, 0.06);
+  --shadow-button: 0 1px 0 rgba(20, 18, 14, 0.05);
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+  --safe-top: env(safe-area-inset-top);
+  --safe-bottom: env(safe-area-inset-bottom);
+}
+
+.dark {
+  color-scheme: dark;
+  --color-bg: #131210;
+  --color-bg-soft: #1a1916;
+  --color-surface: #1f1d19;
+  --color-surface-2: #26241f;
+  --color-ink: #f4ecd9;
+  --color-ink-soft: #cfc6b1;
+  --color-muted: #8d8576;
+  --color-line: #2e2b25;
+  --color-line-strong: #3a362e;
+  --color-brand-soft: #1f2e21;
+  --color-correct-soft: #1f2e21;
+  --color-wrong-soft: #2e1e1e;
+  --color-accent-soft: #2c2415;
+  --color-overlay: rgba(0, 0, 0, 0.6);
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.2);
+  --shadow-pop: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-button: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100svh;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: 'cv11', 'ss01';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+  text-rendering: optimizeLegibility;
+
+  /* Disable text selection and the iOS long-press copy menu app-wide. */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* Inputs still need to be selectable so the caret works and users can type. */
+input, textarea, [contenteditable='true'] {
+  user-select: text;
+  -webkit-user-select: text;
+  -webkit-touch-callout: default;
+}
+
+[dir='rtl'], .ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+}
+
+button { font-family: inherit; }
+
+input, textarea, select {
+  font-family: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input:focus-visible, textarea:focus-visible, select:focus-visible, button:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+/* Scrollbar polish (desktop) */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--color-line-strong); border-radius: 999px; border: 2px solid transparent; background-clip: padding-box; }
+::-webkit-scrollbar-track { background: transparent; }
+
+/* Subtle motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
