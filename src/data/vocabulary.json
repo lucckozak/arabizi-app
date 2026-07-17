@@ -1,7 +1,6 @@
 [
   { "id": "greet.aasif",        "arabic": "آسف",       "arabizi": "aasif",        "english": "Sorry (m)",         "category": "greetings", "type": "expression" },
   { "id": "greet.aasfa",        "arabic": "آسفة",      "arabizi": "aasfa",        "english": "Sorry (f)",         "category": "greetings", "type": "expression" },
-  { "id": "greet.essumoo7ah",   "arabic": "السموحة",   "arabizi": "essumoo7ah",   "english": "Sorry",             "category": "greetings", "type": "expression" },
   { "id": "greet.haih",         "arabic": "هيه",       "arabizi": "haih",         "english": "Yes",               "category": "greetings", "type": "particle" },
   { "id": "greet.la",           "arabic": "لا",        "arabizi": "la",           "english": "No",                "category": "greetings", "type": "particle" },
   { "id": "greet.mar7aba",      "arabic": "مرحبا",     "arabizi": "mar7aba",      "english": "Hi / hello",        "category": "greetings", "type": "expression" },

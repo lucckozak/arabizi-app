@@ -3,6 +3,7 @@ import { Card } from '@/components/Card';
 import { Button } from '@/components/Button';
 import { ArabicText } from '@/components/ArabicText';
 import { SpeakerButton } from '@/components/SpeakerButton';
+import { PrepositionIcon } from './PrepositionIcon';
 import { OPTION_STATE_CLASSES } from './optionStyles';
 import { playFeedback, speakArabic } from '@/services/audioService';
 import type { Sentence } from '@/types/sentence';
@@ -60,17 +61,19 @@ export const SentenceComplete = ({ sentence, onAnswered }: Props) => {
     playFeedback(correct);
   };
 
-  const renderWithFill = (template: string, fill: string | null, kind: 'idle' | 'correct' | 'wrong') =>
+  const renderWithFill = (template: string, fill: string | null, kind: 'idle' | 'selected' | 'correct' | 'wrong') =>
     template.split(/(___+)/g).map((part, i) =>
       /^___+$/.test(part) ? (
         <span
           key={i}
           className={`inline-block min-w-[3.25rem] mx-1 px-2.5 py-0.5 rounded-md font-semibold ${
-            fill
-              ? kind === 'correct'
-                ? 'bg-[color:var(--color-correct-soft)] text-[color:var(--color-correct)]'
-                : 'bg-[color:var(--color-wrong-soft)] text-[color:var(--color-wrong)]'
-              : 'border-b-2 border-dashed border-[color:var(--color-brand)] text-[color:var(--color-brand)] rounded-none px-1'
+            kind === 'correct'
+              ? 'bg-[color:var(--color-correct-soft)] text-[color:var(--color-correct)]'
+              : kind === 'wrong'
+                ? 'bg-[color:var(--color-wrong-soft)] text-[color:var(--color-wrong)]'
+                : kind === 'selected'
+                  ? 'bg-[color:var(--color-surface)] text-[color:var(--color-ink)] border border-[color:var(--color-line-strong)]'
+                  : 'border-b-2 border-dashed border-[color:var(--color-brand)] text-[color:var(--color-brand)] rounded-none px-1'
           }`}
         >
           {fill ?? '___'}
@@ -80,7 +83,13 @@ export const SentenceComplete = ({ sentence, onAnswered }: Props) => {
       ),
     );
 
-  const fillKind: 'idle' | 'correct' | 'wrong' = confirmed ? (isCorrect ? 'correct' : 'wrong') : 'idle';
+  const fillKind: 'idle' | 'selected' | 'correct' | 'wrong' = confirmed
+    ? isCorrect
+      ? 'correct'
+      : 'wrong'
+    : selected
+      ? 'selected'
+      : 'idle';
   // Arabic + arabizi previews show the user's pick so they can read it in context.
   const previewArabic = selected?.arabic ?? null;
   const previewArabizi = selected?.arabizi ?? null;
@@ -146,7 +155,10 @@ export const SentenceComplete = ({ sentence, onAnswered }: Props) => {
               className={`min-h-[52px] rounded-xl border-2 px-3 py-2 text-left transition-all duration-150 ${stateClass}`}
             >
               <div className="flex items-center justify-between gap-3">
-                <ArabicText arabic={opt.arabic} arabizi={opt.arabizi} showArabizi={showArabizi} size="md" noInteractive />
+                <div className="flex items-center gap-2">
+                  {sentence.distractorPool === 'prepositions' && <PrepositionIcon arabizi={opt.arabizi} />}
+                  <ArabicText arabic={opt.arabic} arabizi={opt.arabizi} showArabizi={showArabizi} size="md" noInteractive />
+                </div>
                 {confirmed ? (
                   <span className={`text-xs font-semibold ${state === 'dim' ? 'text-[color:var(--color-muted)]' : 'opacity-95'}`}>
                     {opt.english}

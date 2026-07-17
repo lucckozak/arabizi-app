@@ -315,9 +315,9 @@
   },
   {
     "id": "s.conn_3shaan_shughul",
-    "arabic": "اليوم عندي شغل وايد ___ ما بقدر أطلع",
-    "arabizi": "elyoum 3ndee shughul wayed ___ ma bagdar atla3",
-    "english": "Today I have a lot of work, ___ I can't go out",
+    "arabic": "ما بقدر أطلع ___ عندي شغل وايد اليوم",
+    "arabizi": "ma bagdar atla3 ___ 3ndee shughul wayed elyoum",
+    "english": "I can't go out ___ I have a lot of work today",
     "answer": { "arabic": "عشان", "arabizi": "3shaan", "english": "because" },
     "distractorPool": "prepositions"
   },
